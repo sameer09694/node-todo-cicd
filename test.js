@@ -11,7 +11,7 @@ after(() => {
 	console.log( "This part executes once after all tests" );
 });
 	
-// We can add nested blocks for    different tests
+// We can add nested blocks for different tests
 describe( "Test1", () => {
 	beforeEach(() => {
 	console.log( "executes before every test" );
